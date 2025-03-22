@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 20px;
+        }
+        h2, h5 {
+            color: #4CAF50;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 50%;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 10px;
+        }
+        input, select {
+            padding: 8px;
+            width: 100%;
+        }
+        input[type="radio"] {
+            width: auto;
+        }
+        input[type="submit"], input[type="reset"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+        a {
+            text-decoration: none;
+            color: #ff4500;
+        }
+        a:hover {
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <h2>Santhoshravi 🚀</h2>
+        <h5>Training | Fresher | Data Science | Statistics</h5>
+        <p>
+            👋 Hi, I'm <b>Santhoshravi</b>, an aspiring <b>Python Fullstack Developer</b> with a passion for data science and problem-solving. I'm on a mission to build impactful web applications and grow my expertise in the tech world. 💻
+        </p>
+    </center>
+
+    <hr>
+
+    <center>
+        <h2>Registration Form</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><b>Name:</b></td>
+                    <td><input type="text" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td><b>Age:</b></td>
+                    <td><input type="number" placeholder="Enter your age" required></td>
+                </tr>
+                <tr>
+                    <td><b>Gender:</b></td>
+                    <td>
+                        <input type="radio" name="Gender" value="male" required> Male
+                        <input type="radio" name="Gender" value="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td><input type="email" placeholder="Enter your email" required></td>
+                </tr>
+                <tr>
+                    <td><b>Select a Course:</b></td>
+                    <td>
+                        <select required>
+                            <option value="">-- Select a course --</option>
+                            <option value="python">Python Fullstack</option>
+                            <option value="sql">SQL</option>
+                            <option value="aws">AWS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Upload Your Resume:</b></td>
+                    <td><input type="file" accept=".pdf,.doc,.docx" required></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+
+    <hr>
+
+    <center>
+        <a href="index.html">Home</a> |
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com/in/santhoshravi" target="_blank">LinkedIn</a> 
+
+</body>
+</html>
